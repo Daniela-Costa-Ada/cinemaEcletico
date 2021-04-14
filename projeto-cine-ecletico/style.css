@@ -1,0 +1,181 @@
+/*Geral*/
+body{
+	background-color: #f7eee6;
+}
+div {
+	font-family: georgia;
+}
+img {
+	max-width: 100%;
+}
+p {
+	text-indent: 50px;
+}
+/*logo, menu*/
+.logoinicialcine img {
+		width: 91%;		
+}
+.logoinicialcine {
+	width: 19%;
+}
+.logoinicialcine, .menu {
+	margin: 10px;
+	border: 0px;
+	padding: 0px;	
+	display: inline-block;
+}
+.logoemenu {
+	margin: 0px 3px 35px 25px;
+}
+.menu {
+	width: 56.1%;
+	float: right;
+	background-color: #f5d0d1;
+	border-radius: 25px;
+}
+.menu ul li {	
+	float: left;
+	padding: 20px;
+	font-size: 27px;
+	list-style: none;	
+	/*font-weight: bold;*/
+}
+.menu li a:hover {	
+	color: #822717;
+}
+.menu ul{
+	margin: 0px;	
+}
+.menu li a {
+	border: 10px;
+	display: block;
+	text-decoration: none;
+	margin: 4px;
+	color: #806b57;
+}
+img #fotobannercentral {
+	max-width: 250%;
+}
+h2 {
+	font-size: 30px;
+	float: left;
+	color: #245263;
+	display: left;
+	padding: 10px;
+	margin: 18px 20px 20px -8px;
+	text-align: center;
+}
+.destaques {
+	margin: auto;
+	padding: 30px;
+	max-width: 98.5%;
+}
+.filmesruins, .filmesbonspers, .filmesboafoto {
+	width: 30%;
+	height:100%;
+	margin-top: 0px;
+	margin-bottom: 16px;
+	margin-left: 16px;
+	display: inline-block;
+}
+/*tela1filmesruins e tela2bonspersonagens, tela3filmesboafotografia, titulos, imagens, textos*/
+#titulofilmeruim, #titulobonspers, #tituloboafotografia {
+	color: #245263;
+	text-align: center;
+	padding: 20px;
+	margin: 0px;
+	font-size: 42px;
+	white-space: pre-wrap;
+}
+#fotocinetela2, #fotocinebonspers, #fotocineboafotografia {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 61%;
+	margin-bottom: 30px;
+}
+#textofilme, #textofilmebonspers, #textoboafotografia {
+	text-align: justify;
+	font-size: 22px;
+	text-indent: 10%;
+	letter-spacing: 2px;
+	color: #245263;
+	margin: 3px 200px 0px 200px;
+	white-space: normal;
+}
+/*tela2bonspersonagens*/
+#titulobonspers {
+}
+/*telatodososfilmes*/
+#titulotodososfilmes {
+	font-size: 55px;
+	text-align: center;
+}
+h4 {
+	font-size: 30px;
+	text-align: left;
+}
+.titletextsilenciodosinocentes p {
+	text-align: left;
+	/*width: 50%;*/
+}
+.titletextclubedaluta p{
+	text-align: left;
+}
+.titletextsilenciodosinocentes, #fotosilenciodosinocentes {
+	display: inline-block;
+	/*border: 5px solid red;*/
+	width: 74%;
+}
+.titletextclubedaluta, #fotoclubedaluta {
+	display: inline-block;
+	/*border: 5px solid red;*/
+	width: 74%;
+}
+#fotoclubedaluta, #fotosilenciodosinocentes {
+	width: 25%;
+}
+.todosfilmes {
+	/*border: 5px solid red;*/
+    padding: 0;
+    display: grid;
+    margin: 0px;
+}
+.filmeilenciodosinocentes, .filmeclubedaluta {
+width: 49%;
+display: inline-block;
+ /*border: 5px solid red;*/
+}
+.filmeilenciodosinocentes, .filmeclubedaluta {
+display: left;
+}
+/*testes css em geral pagina-de-teste*/
+#paragrafogeral {
+	/*text-decoration: underline;
+	text-decoration: overline;
+	text-decoration: line-through;
+	color: black;*/
+	text-decoration-style: dashed;
+	text-transform: uppercase;
+	white-space: normal;
+}
+#listadetrilhas {
+	margin: 0;	
+	padding:0;
+	list-style: none;
+}
+#listadetrilhas li a{
+	display: block;
+	text-decoration: none;
+	background-color: blue;
+	margin;
+}
+#listadetrilhas li a:hover {
+	
+}
+/*#listaord {
+	list-style-image: url(imagens/marcador.png);*/ /*colocando imagem no marcador da lista
+}*/
+/*.logo {
+	    border: 5px solid red;
+}*/
